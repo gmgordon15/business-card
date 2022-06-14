@@ -1,0 +1,133 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+
+.Container{
+  height: 60%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: black solid 2px;
+  background-color: #23252C;
+  border-radius: 25px;
+}
+
+.small-container{
+  background-color: #1A1B21;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+#greg{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75px;
+  align-items: center;
+
+}
+
+.titles h2{
+  color: #FFFFFF;
+  font-size: 1em;
+  font-family: 'Trebuchet';
+}
+
+.titles h3{
+  color: #F3BF99;
+  font-size: .75em;
+  font-family: 'Trebuchet';
+
+}
+
+.titles h4{
+  color: #F5F5F5;
+  font-size: .6em;
+  font-family: 'Trebuchet';
+}
+
+.CenterButtonsDiv{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:3%;
+  margin-bottom: 3%;
+  
+}
+
+.CenterButtonsDiv button{
+  height: 25px;
+  width: 115px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 6px
+}
+
+#EmailBtn{
+  background-color: #F5F5F5;
+}
+
+#LinkedinBtn{
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.text-container{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.text-container h3{
+  font-size: 1em;
+  padding-bottom: 3%;
+}
+
+.text-container p{
+  font-size: .6em;
+  padding-bottom: 2%;
+}
+
+
+.first-text{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+.second-text{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+
+.SocialMediaContainer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+.SocialMediaContainer button{
+  width: 2em;
+  height: 2em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
